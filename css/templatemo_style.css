@@ -40,6 +40,9 @@ a.largeButton { color: white; text-transform: uppercase; font-weight: 700; font-
 .homeBgColor { background: #38a9e3; }
 .homeBgColor:hover { background-color: #16709f; }
 
+.resumeBgColor { background: #e09d1a; }
+.resumeBgColor:hover { background-color: #e9b144; }
+
 .portfolioBgColor { background: #38e395; }
 .portfolioBgColor:hover { background-color: #169f60; }
 
@@ -130,6 +133,8 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .story-image { margin-top: 30px; overflow: hidden; }
 .story-image img { width: 100%; height: auto; }
+
+.resume-btn { text-align: center; margin-top: 30px; }
 
 .service-item { background-color: #974dea; color: white; }
 .service-item .service-icon { width: 25%; float: left; overflow: hidden; display: inline-block; text-align: center; margin-top: 30px; height: 100%; }
