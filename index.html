@@ -512,8 +512,9 @@ http://www.templatemo.com/tm-394-sonic
         function loadScript() {
           var script = document.createElement('script');
           script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-              'callback=initialize';
+          script.src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize&libraries=places&key=AIzaSyA3HwuyYeZSu0GfZAia_3eaAChRrQxTHZk"
+          // script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+          //     'callback=initialize';
           document.body.appendChild(script);
         }
 
