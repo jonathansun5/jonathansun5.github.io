@@ -94,13 +94,13 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .flexslider .slides { height: 570px; }
 
-.slider-caption { position: absolute; vertical-align: middle; width: 100%; text-align: center; height: 100; z-index: 8; color: white; top: 200px; }
+.slider-caption { position: absolute; vertical-align: middle; width: auto; text-align: center; height: auto; z-index: 8; color: white; top: 200px; }
 .slider-caption h2 { font-size: 48px; text-transform: uppercase; font-weight: 800; margin-bottom: 30px; }
 .slider-caption p { font-size: 16px; text-transform: uppercase; letter-spacing: 2px; width: 50%; margin: 0 auto 30px auto; line-height: 1.8em; }
 
-.flexslider { background-color: black; height: 570px; overflow: hidden; margin: 0; }
+.flexslider { display: flex; justify-content: center; margin-left: auto; margin-right: auto; width: auto; background-color: black; height: 570px; margin: 0; }
 
-.flexslider img { position: relative; opacity: 0.5; width: 100%; z-index: 7; }
+.flexslider img { display: flex; justify-content: center; margin-left: auto; margin-right: auto; position: relative; opacity: 0.5; width: auto; z-index: 7; }
 
 .flex-control-nav { bottom: 15px; z-index: 9; }
 
@@ -141,7 +141,7 @@ a.menu-toggle-btn i { line-height: 60px; }
 .service-item .service-content { width: 75%; overflow: hidden; text-align: center; padding: 20px 20px 20px 0; }
 .service-item .service-content h3 { margin: 0; font-size: 20px; }
 
-.our-skills { margin-top: 80px; }
+.our-skills { width: 100%; margin-top: 40px; margin-bottom: 40px; }
 .our-skills h3 { color: #974dea; font-weight: 300; text-transform: uppercase; font-size: 24px; margin: 0 0 20px 0; }
 
 .progress-bar { background-color: #974dea; text-transform: uppercase; font-size: 12px; }
